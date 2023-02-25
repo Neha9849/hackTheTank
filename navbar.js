@@ -14,8 +14,8 @@ window.onclick = (e) => {
   if (e.target != menuToggler) {
     menu.classList.add('nav-hidden');
     menu.classList.remove('nav-visible');
-    menuToggler.classList.toggle('bi-list');
-    menuToggler.classList.toggle('bi-x-lg');
+    menuToggler.classList.add('bi-list');
+    menuToggler.classList.remove('bi-x-lg');
   }
 }
 list.forEach((element) => {

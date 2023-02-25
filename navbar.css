@@ -10,11 +10,15 @@
 nav {
     background-color: #001d3d;
     color: white;
-    padding: 15px 10px;
+    padding: 10px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: 300;
+    position: fixed;
+    top:0;
+    z-index:100;
+    width: 100vw;
 }
  
 nav *{
@@ -91,7 +95,7 @@ nav ul li a {
     }
 
     .menu-items {
-        width:70vw;
+        width:50vw;
         display:none;
         /* later on display will be changed to flex using js */
         flex-direction: column;
